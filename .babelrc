@@ -1,0 +1,13 @@
+{
+  "presets": ["env", "react"
+  , "es2015", "stage-2", "stage-0"
+  ],
+  "plugins": [
+    "transform-runtime",
+    // 按需引入
+    // 无须自定义主题 已通
+//    ["import", { "libraryName": "antd", "libraryDirectory": "lib", "style": "css"}, "ant"],
+    // 需自定义主题, 全局引用antd样式, 并去除style的按需加载
+    ["import", { "libraryName": "antd"}, "ant"],
+  ]
+}

@@ -8,7 +8,7 @@ export default (type, url, param = {}) => {
       // Uid: 2
     }
   };
-  console.log('test x-xhr update 3')
+  console.log('test x-xhr update 4')
   return new Promise((resolve, reject) => {
     return flyio.request('/a')
         .then(() => {
